@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* navbar start */
+
+ul {
+  display: flex;
+  align-items: right;
+  padding: 4rem 60%;
+  z-index: 99999;
+  list-style: none;
+  justify-content: space-between;
+  background-color: rgb(236, 188, 238);
+  background-size:cover;
+  letter-spacing: 5px;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: inline-block;
+position: relative;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin: 1rem;
+color: rgba(125, 68, 139, 0.561) (21, 170, 0.561);
+font-weight: 600;
+font-size: medium;
+padding: 8px 10px;
+text-decoration: none;
+}
+
+ul li a{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  transition: all;
+  transition-duration: 300ms;
+}
+
+
+ul li a:hover{
+  border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 600px) {
+  ul li.right, 
+  ul li {float: none;}
+}
+
+.logo{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: large;
+justify-content: left;
+padding: 1rem 2rem;
+display:flex;
+color: black;
+}
+
+.logo img{
+width: 2.5rem;
+height: 2.5rem;
+border-radius: 50%;
+}
+
+/* navbar end */
+
+#judul{
+  color: black;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 50px;
+  margin-top: 5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #medan img{
+    width: 80%;
+    /* height: 200px; */
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .content {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+  }
+  
+  .content .opening p {
+    margin-bottom: 30px;
+  }
+  
+  .content img {
+    width: 60%;
+    width: 360px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .content div h3,
+  .content div p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+  }
+  
+  .content div h3,
+  .content div img {
+    width:40%;
+    height:200px
+  }
+  
+  #form {
+    padding: 10px;
+    background-color: rgb(105, 199, 206)(112, 141);
+    border: 2px solid rgb(190, 49, 96);
+    color:black;
+  }
+  
+  /* If screen size is more than 600px wide, set the font-size of <div> to 80px */
+  @media screen and (min-width: 600px) {
+    .content div h3,
+  .content div p {
+      font-size: 80px;
+    }
+  }
+  
+  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .content div h3,
+    .content div p {
+      font-size: 30px;
+    }
+  }
+  
